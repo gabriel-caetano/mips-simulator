@@ -8,12 +8,18 @@ program from binary files
 
 ## How it should work
 It starts by presenting the terminal accepted instructions:
+
 'lt <name of the file>' to load a binary file in the text memory
+  
 'ld <name of the file>' to load a binary file in the data memory
+  
 'r <number of instructions, optional>' execute the number of instructions given
                                      if no parameter runs all the program
+                                     
 'd' shows the content of all register
+
 'm <initial address> <number of addresses>' show the content of the addresses given
+
 'q' quit program
 
 Starts by loading the binary files, you can see the content of the register
